@@ -1,2 +1,12 @@
-En la ventana Símbolo de  Sistema, escriba SFC /SCANNOW y presione ENTER
+En la ventana Símbolo de  Sistema(cmd) ejecutado como administrador, escriba SFC /SCANNOW y presione ENTER
 Windows reparara cualquier archivo dañado o perdido que encuentre debe reiniciar una vez terminado el proceso
+
+los siguientes comandos tambien son de reparacion automatica en cmd
+DISM /Online /Cleanup-Image /CheckHealth
+DISM /Online /Cleanup-Image /ScanHealth
+DISM /Online /Cleanup-Image /RestoreHealth
+
+CHKDSK nos permite analizar toda la estructura de datos y reparar cualquier daño que se puedan detectar en un disco duro especifico
+Un ejemplo para lanzar este comando y analizar nuestro disco duro es:
+
+chkdsk C: /F /R (la /F y /R siempre deben ir despues del disco elegido)
