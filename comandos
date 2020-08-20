@@ -1,3 +1,5 @@
+----------------comandos de reparacion-------------------
+
 En la ventana Símbolo de  Sistema(cmd) ejecutado como administrador, escriba SFC /SCANNOW y presione ENTER
 Windows reparara cualquier archivo dañado o perdido que encuentre debe reiniciar una vez terminado el proceso
 
@@ -10,3 +12,13 @@ CHKDSK nos permite analizar toda la estructura de datos y reparar cualquier dañ
 Un ejemplo para lanzar este comando y analizar nuestro disco duro es:
 
 chkdsk C: /F /R (la /F y /R siempre deben ir despues del disco elegido)
+
+--------------comandos basicos de git--------------------
+
+git init = es para indicar que vamos a empezar a usar git en un proyecto (carpeta) asi pasamos al working directory
+git add <file> = es para pasar los archivos del working directory al stage area
+git status = es para saber en que area de git esta nuestro proyecto (working directory , stage area , repository)
+git commit = es para pasar el proyecto desde el stage area al respositorio
+git push = es para subirlo a un respositorio remoto por ejemplo a un servidor para que otros desarrolladores puedan trabajar en el proyecto tambien
+git pull = es para traer los cambios que han realizado otros desarrolladores 
+git clone = es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
