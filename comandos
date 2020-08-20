@@ -11,7 +11,8 @@ DISM /Online /Cleanup-Image /RestoreHealth
 CHKDSK nos permite analizar toda la estructura de datos y reparar cualquier daño que se puedan detectar en un disco duro especifico
 Un ejemplo para lanzar este comando y analizar nuestro disco duro es:
 
-chkdsk C: /F /R (la /F y /R siempre deben ir despues del disco elegido)
+chkdsk C: /F /R (la /F y /R siempre deben ir despues del disco elegido) psdta ten en cuenta que este proceso aveces es largo y mientras esta
+activo no podras usar algunos programas por que se estaran leyendo sus carpetas
 
 --------------comandos basicos de git--------------------
 
