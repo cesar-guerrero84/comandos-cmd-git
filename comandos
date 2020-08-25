@@ -19,10 +19,12 @@ activo no podras usar algunos programas por que se estaran leyendo sus carpetas
 git init = es para indicar que vamos a empezar a usar git en un proyecto (carpeta) asi pasamos al working directory
 git add <file> = es para pasar los archivos del working directory al stage area
 git status = es para saber en que area de git esta nuestro proyecto (working directory , stage area , repository)
-git commit = es para pasar el proyecto desde el stage area al respositorio
+git commit -m "texto-info" = envia el proye  desde  el staging hasta el repositorio 
 git push = es para subirlo a un respositorio remoto por ejemplo a un servidor para que otros desarrolladores puedan trabajar en el proyecto tambien
 git pull = es para traer los cambios que han realizado otros desarrolladores 
 git clone = es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
+checkout = trae las versiones de la rama del proyecto repositorio (master)
+
 
 ------------- comandos de utilidad------------------------
 
