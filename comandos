@@ -23,7 +23,8 @@ git commit -m "texto-info" = envia el proye  desde  el staging hasta el reposito
 git push = es para subirlo a un respositorio remoto por ejemplo a un servidor para que otros desarrolladores puedan trabajar en el proyecto tambien
 git pull = es para traer los cambios que han realizado otros desarrolladores 
 git clone = es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
-checkout = trae las versiones de la rama del proyecto repositorio (master)
+git checkout + direccion git commit + archivo = trae las versiones de la rama del proyecto repositorio (master) para ver como era el archivo antes
+tambien si usas git chekout + master + archivo vuelves a la version que tengas en el master
 ls = para ver la lista de un directorio
 ls  -al = para ver la lista de un directorio con los ocultos
 git rm --cached = borra el archivo del staging
@@ -37,9 +38,11 @@ git add . = para agregar todo lo de la carpeta al staging
 git log = muestra todas las modificaciones del proyecto 
 git show = muestra todos los cambios de un archivo
 scape + shift + zz = para salir de ciertas funciones
-git diff +la direccion git de un cambio + la direccion git del otro = funciona para hacer comparaciones de los cambios hechos 
+git diff +la direccion git de un cambio + la direccion git del otro = funciona para hacer comparaciones de los cambios hechos o para ver los cambios 
+de un solo archivo usa solamente git diff
 git reset + direccion del git commit + --hard o --soft = esto es para volver a una antigua version de un commit con hard vuelves completamente 
 a la version elegida y se borran las que este por delante y con soft vuelve pero el staging sigue siendo la version mas nueva
+git log --stat = funciona para ver los cambios especificos en el commit para salir de ese menu usa la letra q
 
 
 ------------- comandos de utilidad------------------------
