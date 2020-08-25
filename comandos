@@ -24,6 +24,8 @@ git push = es para subirlo a un respositorio remoto por ejemplo a un servidor pa
 git pull = es para traer los cambios que han realizado otros desarrolladores 
 git clone = es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
 checkout = trae las versiones de la rama del proyecto repositorio (master)
+ls = para ver la lista de un directorio
+ls  -al = para ver la lista de un directorio con los ocultos
 
 
 ------------- comandos de utilidad------------------------
