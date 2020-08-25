@@ -23,3 +23,15 @@ git commit = es para pasar el proyecto desde el stage area al respositorio
 git push = es para subirlo a un respositorio remoto por ejemplo a un servidor para que otros desarrolladores puedan trabajar en el proyecto tambien
 git pull = es para traer los cambios que han realizado otros desarrolladores 
 git clone = es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
+
+------------- comandos de utilidad------------------------
+
+pwd =  ubica tu carpeta actual
+cd = para navegar entre directorios
+mkdir = crea directorios (carpetas)
+touch = crea un nuevo documento
+history = toda la historia de los comandos ingresados 
+!# = para repetir un comando almacenado en history 
+rm = remove 
+--help = informacion sobre los comandos 
+CAT = para ver el contenido de un archivo 
