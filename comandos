@@ -97,7 +97,7 @@ mkdir = crea directorios (carpetas)
 touch = crea un nuevo documento
 history = toda la historia de los comandos ingresados 
 !# = para repetir un comando almacenado en history 
-rm = remove 
+rm = elimina archivos
 --help = informacion sobre los comandos 
-
+rmdir = elimina carpetas o directorios
 
