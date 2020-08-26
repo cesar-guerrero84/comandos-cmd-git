@@ -21,7 +21,7 @@ git add <file> = es para pasar los archivos del working directory al stage area
 git status = es para saber en que area de git esta nuestro proyecto (working directory , stage area , repository)
 git commit -m "texto-info" = envia el proye  desde  el staging hasta el repositorio 
 git push = es para subirlo a un respositorio remoto por ejemplo a un servidor para que otros desarrolladores puedan trabajar en el proyecto tambien
-git pull = es para traer los cambios que han realizado otros desarrolladores 
+git pull = es para traer los cambios que han realizado otros desarrolladores y pasarlos al pc es como usar fetch y merge en un solo comando
 git clone = es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
 git checkout + direccion git commit + archivo = trae las versiones de la rama del proyecto repositorio (master) para ver como era el archivo antes
 tambien si usas git chekout + master + archivo vuelves a la version que tengas en el master
@@ -43,6 +43,9 @@ de un solo archivo usa solamente git diff
 git reset + direccion del git commit + --hard o --soft = esto es para volver a una antigua version de un commit con hard vuelves completamente 
 a la version elegida y se borran las que este por delante y con soft vuelve pero el staging sigue siendo la version mas nueva
 git log --stat = funciona para ver los cambios especificos en el commit para salir de ese menu usa la letra q
+git fetch = lo que hace es traer un repositorio de un server a tu master 
+git merge = pasa lo que pasaste del server al directorio de trabajo (pc)
+
 
 --------------------------IMPORTANTE--------------------------------------
 
