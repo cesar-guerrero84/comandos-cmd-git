@@ -23,7 +23,7 @@ git commit -m "texto-info" = envia el proye  desde  el staging hasta el reposito
 git push = es para subirlo a un respositorio remoto por ejemplo a un servidor para que otros desarrolladores puedan trabajar en el proyecto tambien
 git pull = es para traer los cambios que han realizado otros desarrolladores y pasarlos al pc es como usar fetch y merge en un solo comando
 git clone = es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
-git checkout + direccion git commit + archivo = trae las versiones de la rama del proyecto repositorio (master) para ver como era el archivo antes
+git checkout + direccion git commit + archivo = trae las versiones de la rama del proyecto repositorio (master) para ver como era el archivo antes tambien sirve para cambiar a una rama especificando el nombre
 tambien si usas git chekout + master + archivo vuelves a la version que tengas en el master
 ls = para ver la lista de un directorio
 ls  -al = para ver la lista de un directorio con los ocultos
@@ -45,6 +45,9 @@ a la version elegida y se borran las que este por delante y con soft vuelve pero
 git log --stat = funciona para ver los cambios especificos en el commit para salir de ese menu usa la letra q
 git fetch = lo que hace es traer un repositorio de un server a tu master 
 git merge = pasa lo que pasaste del server al directorio de trabajo (pc)
+git clone url_del_servidor_remoto: Nos permite descargar los archivos de la última versión de la rama principal y todo el historial de cambios en la carpeta .git.
+git commit -am ""= funciona para cuando modificaste un archivo ya trabajado y no lo has agragegado con git add este comando de una vez lo agrega y lo manda a un commit
+git branch + nombre de la rama = este comando crea una nueva rama de un repositorio master
 
 
 --------------------------IMPORTANTE--------------------------------------
