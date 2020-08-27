@@ -100,7 +100,8 @@ history = toda la historia de los comandos ingresados
 rm = elimina archivos
 --help = informacion sobre los comandos 
 rmdir = elimina carpetas o directorios vacios
-rm -r = elimina carpetas con subcarpetas y archivos
+rm -r = elimina carpetas con subcarpetas 
+rm -rf = elimina toda una carpeta y su contenido a la fuerza
 ls = para ver la lista de un directorio
 ls  -al = para ver la lista de un directorio con los ocultos
 
