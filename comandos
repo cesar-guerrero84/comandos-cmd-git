@@ -50,6 +50,7 @@ git branch + nombre de la rama = este comando crea una nueva rama de un reposito
 git remote add origin + link del repositorio github = este comando sube nuestro proyecto a un repositorio github , git remote sin link puedes ver los repositorios subidos a github
 git remote -v = para ver las opciones que podemos realizar a los respositorios recien traidos de un repositorio remoto
 gitk = te muestra toda la rama de las modificaciones del proyecto
+vim = abre el editor de archivos de la terminal
 
 
 
