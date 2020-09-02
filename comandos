@@ -21,8 +21,8 @@ git add <file> = es para pasar los archivos del working directory al stage area
 git status = es para saber en que area de git esta nuestro proyecto (working directory , stage area , repository)
 git commit -m "texto-info" = envia el proye  desde  el staging hasta el repositorio 
 git push + nombre de repositorio + el master o rama que quieras enviar = es para subirlo a un respositorio remoto por ejemplo a un servidor para que otros desarrolladores puedan trabajar en el proyecto tambien
-git pull + nombre de repositorio + el master o rama que quieras enviar = es para traer los cambios que han realizado otros desarrolladores y pasarlos al pc es como usar fetch y merge en un solo comando
-git pull origin master --allow-unrelated-histories = trae la version de un repositorio remoto para hacer un commit fusionado con el repositorio local
+git pull + nombre de repositorio + el master o rama que quieras traer = es para traer los cambios que han realizado otros desarrolladores y pasarlos al pc es como usar fetch y merge en un solo comando
+git pull nombreDeRepositorio master/rama --allow-unrelated-histories = trae la version de un repositorio remoto para hacer un commit fusionado con el repositorio local
 git clone + link de repositorio = es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
 git checkout + direccion git commit + archivo = trae las versiones de la rama del proyecto repositorio (master) para ver como era el archivo antes tambien sirve para cambiar a una rama especificando el nombre
 tambien si usas git chekout + master + archivo vuelves a la version que tengas en el master
@@ -36,6 +36,8 @@ CAT = para ver el contenido de un archivo
 git add . = para agregar todo lo de la carpeta al staging
 git log = muestra todas las modificaciones del proyecto presiona enter para verlos todos 
 git log --all = muestra todos los cambios del proyecto 
+git log --all --graph = muestra todos los cambios graficamente con lineas sobre las ramas
+git log --all --graph --decorate  --oneline = te muestra toda la historia del proyecto de forma mas grafica y comprimida
 git show = muestra todos los cambios de un archivo
 scape + shift + zz = para salir de ciertas funciones
 git diff +la direccion git de un cambio + la direccion git del otro = funciona para hacer comparaciones de los cambios hechos o para ver los cambios 
@@ -53,6 +55,13 @@ git remote set-url origin + url repositorio github = es para cambiar el link del
 git remote -v = para ver las opciones que podemos realizar a los respositorios recien traidos de un repositorio remoto
 gitk = te muestra toda la rama de las modificaciones del proyecto
 vim = abre el editor de archivos de la terminal
+alias +  nombre de shortcut +="comando a guardar en un shortcout" = esto sirve para guardar shortcuts de comandos muy largos en git :D
+git tag = te muestra la lista de todos los tags guardados en el proyecto
+git tag -a nombre del tag que quieras -m "mensaje o descripcion del tag" hash/direccion commit = esto crea un tag en un commit especifico
+git show-ref --tags = te muestra todos los tags y a que commit estan asignados 
+git tag -d nombreDeTag = asi eliminas un tag desde git
+git push nombreDeRepositorio :refs/tags/nombreDeTags = esto elimina un tag del repositorio remoto 
+git push nombreDeRepositorioRemoto --tags = es para enviar a un repositorio remoto los tags de nuestro proyecto
 
 
 
