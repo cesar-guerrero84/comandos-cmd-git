@@ -24,7 +24,7 @@ git push + nombre de repositorio + el master o rama que quieras enviar = es para
 git pull + nombre de repositorio + el master o rama que quieras traer = es para traer los cambios que han realizado otros desarrolladores y pasarlos al pc es como usar fetch y merge en un solo comando
 git pull nombreDeRepositorio master/rama --allow-unrelated-histories = trae la version de un repositorio remoto para hacer un commit fusionado con el repositorio local
 git clone + link de repositorio = es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
-git checkout + direccion git commit + archivo = trae las versiones de la rama del proyecto repositorio (master) para ver como era el archivo antes tambien sirve para cambiar a una rama especificando el nombre
+git checkout + direccion git commit + archivo = trae las versiones de la rama del proyecto repositorio (master) para ver como era el archivo antes tambien sirve para cambiar a una rama especificando el nombre de la rama a la que quieres accder
 tambien si usas git chekout + master + archivo vuelves a la version que tengas en el master
 git rm --cached = borra el archivo del staging
 git config = muestra todas las configuraciones que tiene git 
@@ -47,9 +47,13 @@ a la version elegida y se borran las que este por delante y con soft vuelve pero
 git log --stat = funciona para ver los cambios especificos en el commit para salir de ese menu usa la letra q
 git fetch = lo que hace es traer un repositorio de un server a tu master 
 git merge = pasa lo que pasaste del server al directorio de trabajo (pc)
+git merge + rama = lo que hace es fusionar la rama especificada con la rama donde te encuentras actualmente normalmente la master
 git clone url_del_servidor_remoto: Nos permite descargar los archivos de la última versión de la rama principal y todo el historial de cambios en la carpeta .git.
 git commit -am ""= funciona para cuando modificaste un archivo ya trabajado y no lo has agragegado con git add este comando de una vez lo agrega y lo manda a un commit
 git branch + nombre de la rama = este comando crea una nueva rama de un repositorio master si escribes git branch solo te muestra las ramas creadas
+git show-branch = nos muestra las ramas que existen y su historia 
+git show-branch --all = es igual al de arriba pero con mas datos especificados
+git branch -d nombreDeRama = elimina una rama del repositorio local si pones la d mayuscula D lo borrara forzadamente
 git remote add origin + link del repositorio github = este comando sube nuestro proyecto a un repositorio github , git remote sin link puedes ver los repositorios subidos a github
 git remote set-url origin + url repositorio github = es para cambiar el link del repositorio de https a ssh por ejemplo 
 git remote -v = para ver las opciones que podemos realizar a los respositorios recien traidos de un repositorio remoto
