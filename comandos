@@ -66,6 +66,7 @@ git show-ref --tags = te muestra todos los tags y a que commit estan asignados
 git tag -d nombreDeTag = asi eliminas un tag desde git
 git push nombreDeRepositorio :refs/tags/nombreDeTags = esto elimina un tag del repositorio remoto 
 git push nombreDeRepositorioRemoto --tags = es para enviar a un repositorio remoto los tags de nuestro proyecto
+git rebase master = este comando pega una rama (estando en ella con git checkout) a la rama principal master de forma que pareciera que esa rama nunca huviera existido esto solo se debe hacer en local y no en repositorios remotos online por que cambia la historia tambien debes primero hacer rebase master en la rama donde esta el error o la que quieras unir y luego hacer el rebase en master llamando a la rama que quieres pegar al master asi evitas conflictos dificiles de solucionar esta practica es buena solo en casos de emergencias ya que cambia la historia de las ramas
 
 
 
