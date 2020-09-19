@@ -155,7 +155,7 @@ ssh-add ruta-donde-guardaste-tu-llave-privada
 # --comandos de utilidad git y cmd--
 -  **scape + shift + zz** = para salir de ciertas funciones
 - **pwd** =  ubica tu carpeta actual
-- **cd nombreDeCarpeta **= para navegar entre directorios
+- **cd nombreDeCarpeta**= para navegar entre directorios
 - **mkdir** = crea directorios (carpetas)
 - **touch** = crea un nuevo documento
 - **history** = toda la historia de los comandos ingresados 
