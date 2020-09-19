@@ -24,7 +24,7 @@ activo no podras usar algunos programas por que se estaran leyendo sus carpetas
 
 - **git pull nombreDeRepositorio master/rama --allow-unrelated-histories** = trae la version de un repositorio remoto para hacer un commit fusionado con el repositorio local
 
-- **git clone + link de repositorio **= es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
+- **git clone + link de repositorio**= es para hacer una copia de un repositorio en algun servidor y pasarlo a tu pc para que puedas trabajarlo
 
 - **git checkout + direccion git commit + archivo** = trae las versiones de la rama del proyecto repositorio (master) para ver como era el archivo antes tambien sirve para cambiar a una rama especificando el nombre de la rama a la que quieres acceder, tambien si usas git chekout + master + archivo vuelves a la version que tengas en el master
 
