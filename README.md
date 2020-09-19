@@ -166,6 +166,6 @@ ssh-add ruta-donde-guardaste-tu-llave-privada
 - **rm -r** = elimina carpetas con subcarpetas
 - **rm -rf** = elimina toda una carpeta y su contenido a la fuerza
 - **ls o dir** = para ver la lista de un directorio
-- ** ls  -al** = para ver la lista de un directorio con los ocultos
+- **ls  -al** = para ver la lista de un directorio con los ocultos
 - **cat NombreDeArchivo** = para ver el contenido de un archivo
 - **vim NombreDeArchivo** = para editar el contenido de un archivo
