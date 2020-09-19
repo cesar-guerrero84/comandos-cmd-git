@@ -138,7 +138,7 @@ Imagina el siguiente caso:
 >Conclusión: Lo mejor que puedes hacer para salvar tu puesto y evitar un incendio en tu trabajo es conocer muy bien la diferencia y los riesgos de todos los comandos de Git.
 
 # ------configuracion de llaves ssh------
-####Primer paso: Generar tus llaves SSH. Recuerda que es muy buena idea proteger tu llave privada con una contraseña.
+#### Primer paso: Generar tus llaves SSH. Recuerda que es muy buena idea proteger tu llave privada con una contraseña.
 
 ssh-keygen -t rsa -b 4096 -C "tu@email.com"
 
