@@ -112,7 +112,7 @@ activo no podras usar algunos programas por que se estaran leyendo sus carpetas
 
 - **git clean --dry-run** = este comando es para cuando quieres borrar archivos o cambios que no necesitas pero solo quieres ver cuales se borraran 
 
-- **git clean -f** = ste comando es como el anterior pero aqui se se eliminaran los archivos para siempre pero ten en cuenta que no se eliminan las carpetas y tampoco lo que se encuentra dentro del archivo gitignore
+- **git clean -f** = este comando es como el anterior pero aqui se se eliminaran los archivos para siempre pero ten en cuenta que no se eliminan las carpetas y tampoco lo que se encuentra dentro del archivo gitignore
 
 # ------IMPORTANTE sobre git------
 > Git reset y git rm son comandos con utilidades muy diferentes, pero aún así se confunden muy fácilmente.
