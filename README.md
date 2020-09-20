@@ -100,6 +100,20 @@ activo no podras usar algunos programas por que se estaran leyendo sus carpetas
 
 - **git reset nombreDelArchivo** = reinicia un archivo que hayas agregado al stage con git add y lo saca del stage
 
+- **git stash** = este comando es para cuando quieres guardar algunos cambios en un lugar temporal
+
+- **git stash list** = este comando es para ver los datos guardados en el lugar temporal
+
+- **git stash pop** = este comando es para dependiendo de en que rama estes (se recomienda que sea en master) traigas de nuevo el cambio guardado en un stash
+
+- **git stash branch nombreDeRama** = este comando es para enviar el cambio guardado en un stash en una nueva rama
+
+- **git stash drop** = este comando lo que hace es borrar los stash
+
+- **git clean --dry-run** = este comando es para cuando quieres borrar archivos o cambios que no necesitas pero solo quieres ver cuales se borraran 
+
+- **git clean -f** = ste comando es como el anterior pero aqui se se eliminaran los archivos para siempre pero ten en cuenta que no se eliminan las carpetas y tampoco lo que se encuentra dentro del archivo gitignore
+
 # ------IMPORTANTE sobre git------
 > Git reset y git rm son comandos con utilidades muy diferentes, pero aún así se confunden muy fácilmente.
 
